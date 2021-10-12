@@ -11,6 +11,7 @@ class Score {
     const makelist = document.getElementById('scores');
     const makeul = document.createElement('ul');
     makelist.appendChild(makeul);
+    makeul.className = 'ullist';
     makeul.innerHTML += `<li>${this.name} , ${this.score}</li>`;
   }
 }
