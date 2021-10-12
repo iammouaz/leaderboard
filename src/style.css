@@ -1,0 +1,9 @@
+.scores {
+  justify-content: space-evenly;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+}
