@@ -1,10 +1,10 @@
 {
   "name": "leaderboard",
   "version": "1.0.0",
-  "description": "The leaderboard website displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external Leaderboard API service.",
+  "description": "leaderboard is place can player add his score",
   "main": "index.js",
   "scripts": {
-    "test": "jest --coverage",
+    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
     "start": "webpack serve --open"
   },
@@ -12,27 +12,25 @@
     "type": "git",
     "url": "git+https://github.com/iammouaz/leaderboard.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Moaz Molkey",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/iammouaz/leaderboard/issues"
   },
   "homepage": "https://github.com/iammouaz/leaderboard#readme",
   "devDependencies": {
     "babel-eslint": "^10.1.0",
-    "eslint": "^7.32.0",
-    "eslint-config-airbnb-base": "^14.2.1",
-    "eslint-plugin-import": "^2.25.1",
+    "css-loader": "^6.4.0",
+    "eslint-plugin-import": "^2.25.2",
     "html-webpack-plugin": "^5.3.2",
-    "stylelint": "^13.13.1",
-    "stylelint-config-standard": "^21.0.0",
-    "stylelint-csstree-validator": "^1.9.0",
-    "stylelint-scss": "^3.21.0",
-    "webpack": "^5.58.1",
-    "webpack-cli": "^4.9.0"
+    "style-loader": "^3.3.0",
+    "webpack": "^5.58.2",
+    "webpack-cli": "^4.9.0",
+    "webpack-dev-server": "^4.3.1"
   },
   "dependencies": {
-    "font-awesome-webpack": "0.0.5-beta.2"
+    "eslint-config-airbnb-base": "^14.2.1",
+    "lodash": "^4.17.21",
+    "node-fetch": "^3.0.0"
   }
 }
