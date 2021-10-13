@@ -1,0 +1,38 @@
+{
+  "name": "leaderboard",
+  "version": "1.0.0",
+  "description": "The leaderboard website displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external Leaderboard API service.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "build": "webpack",
+    "start": "webpack serve --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iammouaz/leaderboard.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iammouaz/leaderboard/issues"
+  },
+  "homepage": "https://github.com/iammouaz/leaderboard#readme",
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.25.1",
+    "html-webpack-plugin": "^5.3.2",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^21.0.0",
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-scss": "^3.21.0",
+    "webpack": "^5.58.1",
+    "webpack-cli": "^4.9.0"
+  },
+  "dependencies": {
+    "font-awesome-webpack": "0.0.5-beta.2"
+  }
+}

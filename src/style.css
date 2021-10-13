@@ -1,0 +1,24 @@
+.scores {
+  justify-content: space-evenly;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+}
+
+.subject {
+  gap: 68px;
+  display: flex;
+}
+
+.ullist {
+  list-style-type: none;
+  word-spacing: 10px;
+  padding: 0;
+}
+
+.ullist :nth-of-type(odd) {
+  background-color: #ddd;
+}
