@@ -1,6 +1,7 @@
-h1{
+h1 {
   text-align: center;
 }
+
 .scores {
   justify-content: center;
   align-items: center;
@@ -31,7 +32,7 @@ h1{
   background-color: #ddd;
 }
 
-.add-new{
+.add-new {
   position: relative;
 }
 
