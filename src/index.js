@@ -21,7 +21,7 @@ const transformData = (data) => {
     tdScore.innerHTML = score;
 
     scoreList.appendChild(tr);
-    tr.appendChild(th)
+    tr.appendChild(th);
     tr.appendChild(tdName);
     tr.appendChild(tdScore);
   });
