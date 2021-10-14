@@ -1,5 +1,17 @@
+h1 {
+  text-align: center;
+}
+
+body {
+  background-image: url(../background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .scores {
-  justify-content: space-evenly;
+  justify-content: center;
+  align-items: center;
+  gap: 18%;
 }
 
 .field {
@@ -9,8 +21,11 @@
 }
 
 .subject {
-  gap: 68px;
+  gap: 10px;
   display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
 }
 
 .ullist {
@@ -21,4 +36,12 @@
 
 .ullist :nth-of-type(odd) {
   background-color: #ddd;
+}
+
+.add-new {
+  position: relative;
+}
+
+.table {
+  width: 176%;
 }
