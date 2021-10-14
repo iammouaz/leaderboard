@@ -1,4 +1,3 @@
-/* eslint-disable linebreak-style */
 import './style.css';
 
 const gameID = 'Zl4d7IVkemOTTVg2fUd2';
@@ -13,15 +12,16 @@ const transformData = (data) => {
   data.forEach((result) => {
     const { user, score } = result;
     const tr = document.createElement('tr');
+    const th = document.createElement('th');
     const tdName = document.createElement('td');
     const tdScore = document.createElement('td');
-    tdName.scope = 'row';
-    tdScore.scope = 'row';
+    th.scope = 'row';
 
     tdName.innerHTML = user;
     tdScore.innerHTML = score;
 
     scoreList.appendChild(tr);
+    tr.appendChild(th)
     tr.appendChild(tdName);
     tr.appendChild(tdScore);
   });
