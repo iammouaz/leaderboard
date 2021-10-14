@@ -23,7 +23,7 @@
 
 - Run git clone on this project at the desired directory:
    ```
-   git clone https://github.com/iammouaz/To-Do-list.git
+   git clone https://github.com/iammouaz/leaderboard.git
    ```
 - Run `npm install` to install the necessary packages to run locally
 - After installing everything, run `npm start` and your default browser will open with the page
@@ -35,7 +35,7 @@ An updated web browser
 ### Usage
 
 - Type the score and your name in the text field and submit
-- Watch your score on the list and check who is better.
+- Watch your score on the list and check who is better. 
 
 
 ## Authors
